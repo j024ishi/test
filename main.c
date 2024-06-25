@@ -5,7 +5,7 @@
 int myRoot(double x) // x の平方根を返す関数。x >= 0 ではないときエラー表示を行い exit(1) とする。 
 {
   double y;
-  if( x <= 0 ){
+  if( x < 0 ){
     printf("エラー：0以上の値ではありません in myRoot()\n");　      
     exit(1);
   }
